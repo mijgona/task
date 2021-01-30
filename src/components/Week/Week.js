@@ -32,10 +32,10 @@ export default function Week() {
     };
      
         return (
-            <div>
+            <div >
                 <form onSubmit={handleSubmit}>
                 <input name="week" className="form-control" placeholder="Введите число от 1 до 7" value={week.value} onChange={handleChange}></input><br></br>
-                <button className="btn  btn-outline-danger">Ok</button>
+                <button className="btn  btn-outline-danger">Проверить</button>
             </form>
             <p className="">Выбранный день недели: {week} </p>
             </div>

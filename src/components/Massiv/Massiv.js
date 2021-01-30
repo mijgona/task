@@ -13,6 +13,8 @@ export default function Massiv() {
     }
     return (
         <div>
+            Заданный массив:{"{"} 
+           {arr.map(o=><>{o},</>)}{"}"} <br/>
             Числа кратные 5: <br/>
            {newArr.map(o=><>число: {o} <br/></>)}
         </div>
