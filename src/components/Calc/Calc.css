@@ -1,0 +1,9 @@
+input[type=text]:focus, .input-text{
+    border-color: red;
+    border-bottom-color: red;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px;
+    height: 50px;
+    font-size: 40px;
+}
